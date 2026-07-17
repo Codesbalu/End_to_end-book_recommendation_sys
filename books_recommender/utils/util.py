@@ -15,4 +15,4 @@ def read_yaml_file(file_path:str)->dict:
             return yaml.safe_load(yaml_file)
 
     except Exception as e:
-            raise APPEXception(e,sys) from e
+            raise AppException(e,sys) from e
