@@ -2,7 +2,7 @@ FROM python:3.7-slim-buster
 
 EXPOSE 8051
 
-RUN apt-get update & apt-get install -y \
+RUN apt-get update && apt-get install -y \
     build-essential \
     software-properties-common \
     git \
