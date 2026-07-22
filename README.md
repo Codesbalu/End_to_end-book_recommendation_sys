@@ -64,7 +64,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build -t Codesbalu/bookapp:latest . 
 ```
 
 ```bash
