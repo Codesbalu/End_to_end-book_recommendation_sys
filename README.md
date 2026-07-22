@@ -72,7 +72,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp 
+docker run -d -p 8501:8501 Codesbalu/bookapp 
 ```
 
 ```bash
@@ -92,14 +92,14 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest 
+docker push Codesbalu/bookapp:latest 
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi Codesbalu/bookapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull Codesbalu/bookapp
 ```
 
