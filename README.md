@@ -64,7 +64,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t Codesbalu/bookapp:latest . 
+docker build -t dockersbalu/booksys:latest . 
 ```
 
 ```bash
@@ -72,7 +72,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 Codesbalu/bookapp 
+docker run -d -p 8501:8501 dockersbalu/booksys
 ```
 
 ```bash
@@ -92,14 +92,14 @@ docker login
 ```
 
 ```bash
-docker push Codesbalu/bookapp:latest 
+docker push docekrsbalu/booksys:latest 
 ```
 
 ```bash
-docker rmi Codesbalu/bookapp:latest
+docker rmi dockerbalu/bookapp:latest
 ```
 
 ```bash
-docker pull Codesbalu/bookapp
+docker pull dockersbalu/bookapp:latest
 ```
 
